@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ProudlySA</string>
+    <string name="title_activity_main">Main</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+
+
+    <string name="rights"> ⓇAll Rights Reserved 2017</string>
+    <string name="tm">IteamPay™</string>
+    <string name="heard">ProudlySA for Android™</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

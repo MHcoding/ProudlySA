@@ -1,0 +1,171 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#cfcccc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="za.co.proudlysa.www.proudlysa.menu">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_margin="20dp"
+                    android:textColor="#000"
+                    android:id="@+id/heardertext"
+                    android:textAlignment="center"
+                    android:text="CATEGORIS" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    android:layout_below="@+id/heardertext">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#000"
+                        android:weightSum="3"
+                        android:orientation="horizontal">
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btnLatest"
+                            android:layout_weight="1"
+                            android:text="Latest" />
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btnPopular"
+                            android:layout_weight="1"
+                            android:text="Popular"/>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btnAll"
+                            android:layout_weight="1"
+                            android:text="All" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/cat_toilet"
+                            android:layout_weight="1"
+                            android:text="Home"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/apptoiletries" />
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/cat_appeal"
+                            android:layout_weight="1"
+                            android:text="Digital"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/appapeal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:orientation="horizontal">
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/cat_electronic"
+                            android:layout_weight="1"
+                            android:text="Fashion"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/appelectronics" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/cat_bakery"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/appbackery" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:orientation="horizontal">
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/cat_home"
+                            android:layout_weight="1"
+                            android:text="Art"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/apptoiletries" />
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/cat_artwork"
+                            android:text="Food"
+                            android:layout_weight="1"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/appapeal" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </FrameLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
